@@ -3,3 +3,9 @@ function iterativeLog(array) {
         console.log(`${index}: ${element}`)
     })
 }
+
+function iterate(f) {
+    var array=['JavaScript','APIs','Markup']
+    array.forEach(f)
+    return array
+}
